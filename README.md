@@ -61,7 +61,7 @@ foreach ($n in $USER_NAMELIST) {
 </p>
 
 <p align="center">
-<b>[Running the Script]</b>
+<b>[Running the Script from PowerShell ISE]</b>
 <br />
 <br />
 <img src="https://i.imgur.com/a8VjTtA.png" width="50%" height="50%">
