@@ -51,7 +51,7 @@ foreach ($n in $USER_NAMELIST) {
                -Enabled $true
 }
 
-## 09 Write-Host prints a string "User created:" and returns $username to the console
+## 09 Write-Host prints a string "User created:" and prints $username to the console
 ## 10 New-ADUser creates a new Active Directory User using parameters to set a default $password,
    fills in lowercase names as per the syntax of the script, sets the $password to never expire,
    points out the path in which the Active Directory user is created, and enables the user
