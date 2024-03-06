@@ -89,7 +89,11 @@ Click "Open"</sub>
 <br />
 <img src="https://i.imgur.com/yD5fPYT.png" width="50%" height="50%">
 <br />
-<sub>Review script</sub>
+<sub>Review script
+<br />
+** Note: Ensure there are no additional spaces or lines after the very last name in the "names.txt" file,
+<br />
+or the script will encounter null-valued expression errors</sub>
 <br />
 <br />
 <img src="https://i.imgur.com/eSgdTcx.png" width="50%" height="50%">
@@ -106,11 +110,7 @@ Alternatively, press F5 to run script</sub>
 <br />
 <img src="https://i.imgur.com/y7lT792.png" width="50%" height="50%">
 <br />
-<sub>Verify script has run successfully
-<br />
-** Note: ensure there are no additional spaces or lines after the very last name in the "names.txt" file,
-<br />
-or the script will encounter null-valued expression errors</sub>
+<sub>Verify script has run successfully</sub>
 <br />
 <br />
 <img src="https://i.imgur.com/K3CvKh3.png" width="50%" height="50%">
