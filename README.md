@@ -2,7 +2,7 @@
 
 <h2>Description</h2>
 
-This PowerShell script was written to create a new organizational unit within Active Directory and create add new users into Active Directory pulled from names in a name list text file.  In a folder on my Windows Server 2019 domain controller, I have a .txt file with a list of first and last names of users to be added to Active Directory, as well as the script itself to automate the task of creating a new organizational unit and creating the users themselves.
+This PowerShell script was written to create a new organizational unit within Active Directory and create and add new users into Active Directory pulled from names in a name list text file.  In a folder on my Windows Server 2019 domain controller, I have a .txt file with a list of first and last names of users to be added to Active Directory, as well as the script itself to automate the task of creating a new organizational unit and creating the users themselves.
 <br />
 <br />
 A rundown of the script and steps to run the script via PowerShell ISE to follow.
