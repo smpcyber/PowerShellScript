@@ -15,14 +15,18 @@ A rundown of the script and steps to run the script via PowerShell ISE to follow
 $USER_PASSWORDS = "P@ssw0rd"
 $USER_NAMELIST = Get-Content ./names.txt
 
-## 01 Set a variable, $USER_PASSWORDS, and assign the string "P@ssw0rd" to assign a default password to newly created users
-## 02 Set a variable, $USER_NAMELIST, and assign the first and last names pulled from the "names.txt" file
+## 01 Set a variable, $USER_PASSWORDS, and assign the string "P@ssw0rd" to assign a default password to
+      newly created users
+## 02 Set a variable, $USER_NAMELIST, and assign the first and last names pulled from the "names.txt"
+      file
 
 $password = ConvertTo-SecureString $USER_PASSWORDS -AsPlainText -Force
 New-ADOrganizationalUnit -Name Employees -ProtectedFromAccidentalDeletion $false
 
-## 03 Set a variable, $password, and converts the plaintext $USER_PASSWORDS into a secure string in PowerShell
-## 04 Create a new Organizational Unit in Active Directory, called "Employees", and disable protection from accidental deletion
+## 03 Set a variable, $password, and converts the plaintext $USER_PASSWORDS into a secure string in
+      PowerShell
+## 04 Create a new Organizational Unit in Active Directory, called "Employees", and disable protection
+      from accidental deletion
 
 foreach ($n in $USER_NAMELIST) {
     $first = $n.Split(" ")[0].ToLower()
